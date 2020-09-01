@@ -1,0 +1,89 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-container {
+  width: 55rem;
+  height: 35rem;
+  position: relative;
+  left: 0;
+  margin: 1rem;
+}
+
+.hero-container img {
+  opacity: 0.4;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 18rem;
+  height: 15rem;
+  font-size: 1rem;
+  color: #f6f4e6;
+  background: black;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+
+.title-container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding: 2rem;
+  width: 26rem;
+  height: 25rem;
+  z-index: 4;
+}
+
+.black-container {
+  background: black;
+  width: 26rem;
+  height: 25rem;
+  left: 50%;
+  top: 28%;
+  position: absolute;
+}
+
+.img-container {
+  background: black;
+  position: absolute;
+  width: 39rem;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  top: 20%;
+}
+
+.header {
+  color: #f6f4e6;
+  font-size: 5rem;
+}
+
+.game-button {
+  position: fixed;
+  bottom: 5%;
+  left: 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.description-container {
+  height: 35rem;
+  padding-top: 15rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  .description-container {
+    padding-top: 0;
+    height: 15rem;
+  }
+}
